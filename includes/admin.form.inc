@@ -21,7 +21,7 @@ function austese_repository_admin($form, &$form_state) {
   );
   $form['mongo_host'] = array(
     '#type' => 'textfield',
-    '#title' => t('Mongo Port'),
+    '#title' => t('Mongo Host'),
     '#default_value' => variable_get('mongo_host', 'localhost'),
     '#size' => 15,
   );
